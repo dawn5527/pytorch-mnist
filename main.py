@@ -7,7 +7,7 @@ app = Flask(__name__)
 def predict_with_pretrain_model(sample):
 	'''
 	Args:
-		sample: A integer ndarray indicating an image, whose shape is (28,28).
+		sample: A integer ndarray indicating an image, whose shape is (28,28)
 
 	Returns:
 		A list consists of 10 double numbers, which denotes the probabilities of numbers(from 0 to 9).
